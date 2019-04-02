@@ -1,6 +1,6 @@
 {
     "composer/ca-bundle": {
-        "version": "1.1.0"
+        "version": "1.1.4"
     },
     "composer/semver": {
         "version": "1.4.2"
@@ -134,8 +134,11 @@
             "repo": "github.com/symfony/recipes",
             "branch": "master",
             "version": "4.0",
-            "ref": "e65a105bf4cd5b1b79012ba029954927f05922e8"
-        }
+            "ref": "05daf6b214e54aed4089f3480f944a67ac3a7889"
+        },
+        "files": [
+            "config/packages/security_checker.yaml"
+        ]
     },
     "swiftmailer/swiftmailer": {
         "version": "v6.0.2"
@@ -257,6 +260,9 @@
     "symfony/polyfill-intl-icu": {
         "version": "v1.6.0"
     },
+    "symfony/polyfill-intl-idn": {
+        "version": "v1.11.0"
+    },
     "symfony/polyfill-mbstring": {
         "version": "v1.6.0"
     },
@@ -281,9 +287,6 @@
             "ref": "cda8b550123383d25827705d05a42acf6819fe4e"
         }
     },
-    "symfony/security": {
-        "version": "v4.0.3"
-    },
     "symfony/security-bundle": {
         "version": "3.3",
         "recipe": {
@@ -292,6 +295,18 @@
             "version": "3.3",
             "ref": "34eb245ce4194e7ae713558084180e2c532e7afd"
         }
+    },
+    "symfony/security-core": {
+        "version": "v4.2.5"
+    },
+    "symfony/security-csrf": {
+        "version": "v4.2.5"
+    },
+    "symfony/security-guard": {
+        "version": "v4.2.5"
+    },
+    "symfony/security-http": {
+        "version": "v4.2.5"
     },
     "symfony/stopwatch": {
         "version": "v4.0.3"
